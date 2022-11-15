@@ -73,7 +73,7 @@ class MovieScrapper:
             self.log.error(f"!! Error while scrapping Html page due to error:->\n{e}")
 
 
-    def saving_into_csv(self):
+    def saving_into_csv(self, m_list):
         ## Saving Top 250 movie m_list as Dataframe and CSV format
         try:
             self.log.info("-> Saving movie m_list as Dataframe and CSV file ...")
