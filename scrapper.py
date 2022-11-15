@@ -23,9 +23,9 @@ except Exception as e:
 try:
     log.info(f"{'='*60}")
     log.info("-> Started scrapping data from Html page....\n")
-    movie_rank=[c.attrs.get('data-value') for c in soup.select('td.posterColumn span[name=rk]')]
     # titlebox contain rank, movie_title, and release_date
     titlebox = soup.select('td.titleColumn')
+    movie_rank=[c.attrs.get('data-value') for c in soup.select('td.posterColumn span[name=rk]')]
     star_cast = [a.attrs.get('title') for a in soup.select('td.titleColumn a')]
     IMDBratings = [b.attrs.get('data-value') for b in soup.select('td.posterColumn span[name=ir]')]
 
