@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Home</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <!--styling for submit button-->
+    <p style="text-align: center; font: 30px/1  Comic Sans MS">Please click below to get</p>
+    <p style="text-align: center; color: rgb(255, 35, 35); font: 40px/1 fantasy">Top-Movies-Chart !!!</p>
+    <span style='font-size:40px; text-align: center'>&#128071;</span>
+    
+    <div class="form">
+        <form action="/scrape" method="GET">
+            <!--<input type="submit" value="Scrape" style="font-style: 'Comic Sans MS'; font-size: larger; color: rgb(0, 0, 0); background-color: #E20000; border: 3pt ridge rgba(255, 19, 19, 0.884)"">-->
+            <input type="submit" value="Scrape" style="text-align: center; font: 24px/1 fantasy; color: rgb(0, 0, 0); background-color: #E20000; border: 3pt ridge rgba(255, 19, 19, 0.884)"">
+        </form>
+    </div>
+</div>
+{% endblock %}
