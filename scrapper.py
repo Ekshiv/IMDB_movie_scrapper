@@ -91,4 +91,4 @@ class MovieScrapper:
             self.log.info("-> Saving file successfully done !!!")
             return csv_file
         except Exception as e:
-            self.log.error(f"Error while saving Dataframe due to ->: {e}")
+            self.log.error(f"Error while saving csv-file due to ->: {e}")
