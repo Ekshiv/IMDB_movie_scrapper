@@ -64,7 +64,7 @@ class MovieScrapper:
                             }
                 m_list.append(data)
             self.log.info("## Movie details like rank, movie_name, star_cast, year_of_release and IMDBratings has been fetched successfully and stored in m_list of dictionary.\n")
-            self.log.info("## Srapping done successfully !!! ")
+            self.log.info("## Scrapping done successfully !!! ")
             self.log.info(f"{'='*60}\n")
             self.log.info(f"{' '*35}*** E N D ***\n")
             return m_list
