@@ -77,7 +77,7 @@
 https://user-images.githubusercontent.com/97881558/165742945-16155120-5d1d-443b-bf8d-bf4eab149e3f.mp4
 
 ### ✨App Screenshot
-[![Product Name Screen Shot](https://raw.githubusercontent.com/Ekshiv/Flask_app_project/main/static/image/App%20screenshot.png)
+![Product Name Screen Shot](images/IMDb_webscrapper_appshot.png)
 
 ### ✨ Mongodb Screenshot
 ![Screenshot 2022-04-28 170938](https://user-images.githubusercontent.com/97881558/165744310-9f53037e-1585-48e5-9ce7-641b2a79ac54.png)
@@ -130,6 +130,6 @@ https://user-images.githubusercontent.com/97881558/165742945-16155120-5d1d-443b-
 [flask]: https://flask.palletsprojects.com/en/2.1.x/
 
 <!--contact-->
-[reach_linkedin]: https://www.linkedin.com/in/aravind-selvam/
+[reach_linkedin]: https://www.linkedin.com/in/shivam-singh-7989b1246/
 [reach_gmail]: mailto:ekshiv1896@gmail.com?subject=Github
 
